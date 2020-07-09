@@ -1,0 +1,29 @@
+body {
+  background: #111;
+  color: #141;
+  font-family: Consolas, Courier, monospace;
+  font-size: 60px;
+  text-shadow: 0 0 15px #141;
+  height: 100vh;
+  max-width: 2000px;
+  display: flex;
+}
+
+.loader {
+  position: relative;
+  display: inline-block;
+}
+
+.loading {
+  text-align: center;
+}
+
+.glow {
+  color: #000;
+  text-shadow: 0 0 10px #0f0;
+}
+
+span {
+  display: inline-block;
+  padding: 0 10px;
+}
