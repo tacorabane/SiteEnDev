@@ -18,10 +18,10 @@ However, it may change in the comming months.
 
  - once the font-end will be done, set the back-end up.
  - integration of Node.js
-    - express
-    - angular
-    - nodemon
-    - dotenv
+    - express [OK]
+    - angular [OK]
+    - nodemon [OK]
+    - dotenv [OK]
  - Creation of a client DB
  - Creation of an API to secure the access of datas
 
