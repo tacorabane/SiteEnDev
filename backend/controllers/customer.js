@@ -5,14 +5,9 @@ exports.createCustomer = (req, res, next) => {
     ...req.body
   });
 
-  .customer.save().then(() => {
-      res.status(201).json({
-        message: "Object saved successfully !"
-      });
-    }).cacth((error) => {
-    res.status(400).json({
-      error: error
-    });
+  customer.save().then(() => {
+      res.status(201).json({message: "Object saved successfully !"});
+    }).cacth((error) => {res.status(400).json({error: error});
   });
 };
 
@@ -48,7 +43,7 @@ exports.modifyCustomer = (req, res, next) => {
       message: "Customer " + req.params.id + " updated successfully !"
     });
   }).catch((error) => {
-    res.status.(400).json({
+    res.status(400).json({
       error: error
     });
   });
