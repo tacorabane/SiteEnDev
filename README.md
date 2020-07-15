@@ -14,7 +14,7 @@ However, it may change in the comming months.
  - once the graphic charter is done, set it up.
 
 
-# Next features
+# New features
 
  - once the font-end will be done, set the back-end up.
  - integration of Node.js
@@ -22,7 +22,5 @@ However, it may change in the comming months.
     - angular [OK]
     - nodemon [OK]
     - dotenv [OK]
- - Creation of a client DB
- - Creation of an API to secure the access of datas
-
-I will detail the back-end later...
+ - Creation of a client DB [OK]
+ - Creation of an API to secure the access of datas [OK]
