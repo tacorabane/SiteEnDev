@@ -4,10 +4,13 @@ node_modules
 # Environment variable file
 .env
 
+# Package JSON files
 package-lock.json
 script/package-lock.json
-
 package.json
 
+# Private datas
 backend/models/customer.js
 backend/models/users.js
+routes/customer.js
+routes/users.js
