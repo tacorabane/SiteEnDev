@@ -9,10 +9,7 @@ However, it may change in the comming months.
 
 # what's next
 
- - as soon as i can, a loading page should be added
- - my author should also be pushed
  - once the graphic charter is done, set it up.
-
 
 # New features
 
@@ -24,3 +21,5 @@ However, it may change in the comming months.
     - dotenv [OK]
  - Creation of a client DB [OK]
  - Creation of an API to secure the access of datas [OK]
+ - Loading page has been added [OK]
+ - Author page has been addded [OK]
