@@ -80,63 +80,6 @@ $(document).ready(function() {
     });
   }
 
-/*
-  if($(window).width() <= 900) {
-    console.log("Size inferior to 900px");
-    $('.img-pres-1').removeAttr("data-aos");
-    $('.img-pres-1').removeAttr("data-aos-duration");
-    $('.img-pres-1').removeAttr("data-aos-anchor-placement");
-    $('.img-pres-1').attr("class", "img-pres-1");
-
-    $('.img-pres-2').removeAttr("data-aos");
-    $('.img-pres-2').removeAttr("data-aos-duration");
-    $('.img-pres-2').removeAttr("data-aos-anchor-placement");
-
-    $('.img-pres-3-1').removeAttr("data-aos");
-    $('.img-pres-3-1').removeAttr("data-aos-duration");
-    $('.img-pres-3-1').removeAttr("data-aos-anchor-placement");
-
-    $('.img-pres-3-2').removeAttr("data-aos");
-    $('.img-pres-3-2').removeAttr("data-aos-duration");
-    $('.img-pres-3-2').removeAttr("data-aos-anchor-placement");
-
-    $('.txt-pres-1').removeAttr("data-aos");
-    $('.txt-pres-1').removeAttr("data-aos-duration");
-    $('.txt-pres-1').removeAttr("data-aos-anchor-placement");
-
-    $('.txt-pres-2').removeAttr("data-aos");
-    $('.txt-pres-2').removeAttr("data-aos-duration");
-    $('.txt-pres-2').removeAttr("data-aos-anchor-placement");
-
-    $('.txt-pres-3').removeAttr("data-aos");
-    $('.txt-pres-3').removeAttr("data-aos-duration");
-    $('.txt-pres-3').removeAttr("data-aos-anchor-placement");
-
-    $('.box-content-1').attr({
-      //"class":"box-content-1 aos-init",
-      "data-aos":"fade-left",
-      "data-aos-duration":"1000",
-      "data-aos-anchor-placement":"center-center"
-    });
-
-    $('.box-content-2').attr({
-      //"class":"box-content-2 aos-init",
-      "data-aos":"fade-right",
-      "data-aos-duration":"1000",
-      "data-aos-anchor-placement":"center-center"
-    });
-
-    $('.box-content-3').attr({
-      //"class":"box-content-3 aos-init",
-      "data-aos":"fade-right",
-      "data-aos-duration":"1000",
-      "data-aos-anchor-placement":"center-center"
-    });
-
-    AOS.refresh();
-  }
-*/
-
 /* Vérification du format du mail dans le footer */
   $('#submit_msg').click(function() {
     var mail = $('#email_send').val();
