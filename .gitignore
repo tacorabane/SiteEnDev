@@ -12,5 +12,5 @@ package.json
 # Private datas
 backend/models/customer.js
 backend/models/users.js
-routes/customer.js
-routes/users.js
+backend/routes/customer.js
+backend/routes/users.js
