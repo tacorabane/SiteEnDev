@@ -9,4 +9,5 @@ script/package-lock.json
 
 package.json
 
-backend/customer.js
+backend/models/customer.js
+backend/models/users.js
