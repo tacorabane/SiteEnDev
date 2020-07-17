@@ -104,11 +104,9 @@ span.news {
 
 .navbar li:hover {
     border-left: 4px solid #008fec;
-    /*color: #b3b3b3;*/
     text-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
     transition: .2s;
     color: white;
-    /*text-shadow: 0 0 20px #008fec;*/
 }
 
 .navbar li i:hover {
@@ -121,18 +119,12 @@ span.news {
     border-left: 4px solid #008fec;
     transition: .2s;
     color: white;
-    text-shadow: 0 0 20px #008fec;
+    text-shadow: 1px 1px 20px #008fec;
 }
-/*
-.navbar li:hover {
-    transition: .2s;
-    color: white;
-    text-shadow: 0 0 20px #008fec;
-}*/
 
 .navbar li i.active {
     color: white;
-    text-shadow: 0 0 20px #008fec;
+    text-shadow: 1px 1px 20px #008fec;
 }
 
 .content {

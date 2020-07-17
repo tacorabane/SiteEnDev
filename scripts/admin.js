@@ -92,6 +92,8 @@ $(document).ready(function () {
     var date = new Date();
     
     changeTitle();
+    
+    $('.content-title').html('Bienvenu à l&#39;' + $('.home').attr('name'));
 
     $('span.date').html(getTheDateName(date.getDay()) + " " + date.getDate() + " " + getTheMonthName(date.getMonth()) + " " + date.getFullYear());
     
@@ -135,6 +137,7 @@ $(document).ready(function () {
         $('.fa.fa-cog').removeClass("active");
         $('li.cog').removeClass("active");
         $('.menu-title span').html($('.home').attr('name'));
+        $('.content-title').html('Bienvenu à l&#39;' + $('.home').attr('name'));
     });
 
     $('.far.fa-calendar-alt, .calendar').click(function () {
@@ -147,6 +150,7 @@ $(document).ready(function () {
         $('.fa.fa-cog').removeClass("active");
         $('li.cog').removeClass("active");
         $('.menu-title span').html($('.calendar').attr('name'));
+        $('.content-title').html('Bienvenu sur le ' + $('.calendar').attr('name'));
     });
 
     $('.far.fa-chart-bar, .line-chart').click(function () {
@@ -159,6 +163,7 @@ $(document).ready(function () {
         $('.fa.fa-cog').removeClass("active");
         $('li.cog').removeClass("active");
         $('.menu-title span').html($('.line-chart').attr('name'));
+        $('.content-title').html('Bienvenu dans les ' + $('.line-chart').attr('name'));
     });
 
     $('.fa.fa-cog, .cog').click(function () {
@@ -171,5 +176,6 @@ $(document).ready(function () {
         $('.fa.fa-cog').addClass("active");
         $('li.cog').addClass("active");
         $('.menu-title span').html($('.cog').attr('name'));
+        $('.content-title').html('Bienvenu dans les ' + $('.cog').attr('name'));
     });
 });
