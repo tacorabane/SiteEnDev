@@ -104,17 +104,31 @@ span.news {
 
 .navbar li:hover {
     border-left: 4px solid #008fec;
+    /*color: #b3b3b3;*/
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+    transition: .2s;
+    color: white;
+    /*text-shadow: 0 0 20px #008fec;*/
 }
+
+.navbar li i:hover {
+    color: #b3b3b3;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+}
+
 
 .navbar li.active {
     border-left: 4px solid #008fec;
-}
-
-.navbar li:hover {
     transition: .2s;
     color: white;
     text-shadow: 0 0 20px #008fec;
 }
+/*
+.navbar li:hover {
+    transition: .2s;
+    color: white;
+    text-shadow: 0 0 20px #008fec;
+}*/
 
 .navbar li i.active {
     color: white;
