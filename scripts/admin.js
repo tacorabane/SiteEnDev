@@ -121,7 +121,7 @@ $(document).ready(function () {
         });
     });
     
-    if ($('.navbar li i').attr('class').split(' ')[1] === "active") {
+    if ($('.navbar li i').attr('class').split(' ')[2] === "active") {
         $('.menu-title span').html($('.navbar li').attr('name').split(' ')[0]);
     }
 
@@ -158,7 +158,7 @@ $(document).ready(function () {
         $('li.line-chart').addClass("active");
         $('.fa.fa-cog').removeClass("active");
         $('li.cog').removeClass("active");
-        $('.menu-title span').html($('.donnees').attr('name'));
+        $('.menu-title span').html($('.line-chart').attr('name'));
     });
 
     $('.fa.fa-cog, .cog').click(function () {
@@ -170,6 +170,6 @@ $(document).ready(function () {
         $('li.line-chart').removeClass("active");
         $('.fa.fa-cog').addClass("active");
         $('li.cog').addClass("active");
-        $('.menu-title span').html($('.options').attr('name'));
+        $('.menu-title span').html($('.cog').attr('name'));
     });
 });
