@@ -14,3 +14,4 @@ backend/models/customer.js
 backend/models/users.js
 backend/routes/customer.js
 backend/routes/users.js
+.env
