@@ -1,7 +1,7 @@
 # SiteEnDev
 The owned website that will be dispatched after using WordPress templates
 
-This is the future website for a you y entrepreneur.
+This is the future website for a young entrepreneur.
 For now, her website is running on WordPress to quickly get internet visibility.
 
 That work is just in a template state, awaiting the graphic charter.
