@@ -90,6 +90,7 @@ function getTheMonthName(monthNumber) {
 $(document).ready(function () {
     'use strict';
     var date = new Date();
+    
     changeTitle();
 
     $('span.date').html(getTheDateName(date.getDay()) + " " + date.getDate() + " " + getTheMonthName(date.getMonth()) + " " + date.getFullYear());
@@ -120,55 +121,55 @@ $(document).ready(function () {
         });
     });
     
-    if ($('.navbar>li').attr('class').split(' ')[1] === "active") {
-        $('.menu-title>span').html($('.navbar>li').attr('name').split(' ')[0]);
+    if ($('.navbar li i').attr('class').split(' ')[1] === "active") {
+        $('.menu-title span').html($('.navbar li').attr('name').split(' ')[0]);
     }
 
-    $('.fa.fa-home').click(function () {
-        $('.fa.fa-home').addClass("active");
-        $('.li.home').addClass("active");
-        $('.fa.fa-calendar').removeClass("active");
-        $('.li.calendar').removeClass("active");
-        $('.fa.fa-line-chart').removeClass("active");
-        $('.li.line-chart').removeClass("active");
-        $('.fa.fa-cog').removeClass("active");
-        $('.li.cog').removeClass("active");
-        $('.menu-title>span').html($('.home').attr('name'));
-    });
-
-    $('.fa.fa-calendar').click(function () {
-        $('.fa.fa-home').removeClass("active");
-        $('.li.home').removeClass("active");
-        $('.fa.fa-calendar').addClass("active");
-        $('.li.calendar').addClass("active");
-        $('.fa.fa-line-chart').removeClass("active");
+    $('.fas fa-home, .home').click(function () {
+        $('.fas.fa-home').addClass("active");
+        $('li.home').addClass("active");
+        $('.far.fa-calendar-alt').removeClass("active");
+        $('li.calendar').removeClass("active");
+        $('.far.fa-chart-bar').removeClass("active");
         $('li.line-chart').removeClass("active");
         $('.fa.fa-cog').removeClass("active");
-        $('.li.cog').removeClass("active");
-        $('.menu-title>span').html($('.calendar').attr('name'));
+        $('li.cog').removeClass("active");
+        $('.menu-title span').html($('.home').attr('name'));
     });
 
-    $('.fa.fa-line-chart').click(function () {
-        $('.fa.fa-home').removeClass("active");
-        $('.li.home').removeClass("active");
-        $('.fa.fa-calendar').removeClass("active");
-        $('.li.calendar').removeClass("active");
-        $('.fa.fa-line-chart').addClass("active");
-        $('.li.line-chart').addClass("active");
+    $('.far.fa-calendar-alt, .calendar').click(function () {
+        $('.fas.fa-home').removeClass("active");
+        $('li.home').removeClass("active");
+        $('.far.fa-calendar-alt').addClass("active");
+        $('li.calendar').addClass("active");
+        $('.far.fa-chart-bar').removeClass("active");
+        $('li.line-chart').removeClass("active");
         $('.fa.fa-cog').removeClass("active");
-        $('.li.cog').removeClass("active");
-        $('.menu-title>span').html($('.donnees').attr('name'));
+        $('li.cog').removeClass("active");
+        $('.menu-title span').html($('.calendar').attr('name'));
     });
 
-    $('.fa.fa-cog').click(function () {
-        $('.fa.fa-home').removeClass("active");
-        $('.li.home').removeClass("active");
-        $('.fa.fa-calendar').removeClass("active");
-        $('.li.calendar').removeClass("active");
-        $('.fa.fa-line-chart').removeClass("active");
+    $('.far.fa-chart-bar, .line-chart').click(function () {
+        $('.fas.fa-home').removeClass("active");
+        $('li.home').removeClass("active");
+        $('.far.fa-calendar-alt').removeClass("active");
+        $('li.calendar').removeClass("active");
+        $('.far.fa-chart-bar').addClass("active");
+        $('li.line-chart').addClass("active");
+        $('.fa.fa-cog').removeClass("active");
+        $('li.cog').removeClass("active");
+        $('.menu-title span').html($('.donnees').attr('name'));
+    });
+
+    $('.fa.fa-cog, .cog').click(function () {
+        $('.fas.fa-home').removeClass("active");
+        $('li.home').removeClass("active");
+        $('.far.fa-calendar-alt').removeClass("active");
+        $('li.calendar').removeClass("active");
+        $('.far.fa-chart-bar').removeClass("active");
         $('li.line-chart').removeClass("active");
         $('.fa.fa-cog').addClass("active");
-        $('.li.cog').addClass("active");
-        $('.menu-title>span').html($('.options').attr('name'));
+        $('li.cog').addClass("active");
+        $('.menu-title span').html($('.options').attr('name'));
     });
 });
