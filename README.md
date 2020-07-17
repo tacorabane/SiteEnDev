@@ -10,6 +10,9 @@ However, it may change in the comming months.
 # what's next
 
  - once the graphic charter is done, set it up.
+ - Manage stuffs on the admin page
+ - Switch on HTTPS protoccol
+ - Securing connexion on the admin page
 
 # New features
 
@@ -23,3 +26,4 @@ However, it may change in the comming months.
  - Creation of an API to secure the access of datas [OK]
  - Loading page has been added [OK]
  - Author page has been addded [OK]
+ - Administration page [OK]
