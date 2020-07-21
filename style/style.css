@@ -193,6 +193,19 @@ form .password input {
                    inset -5px -5px 10px #ffffff73;
 }
 
+form .alert {
+    position: absolute;
+    background: rgba(223, 45, 18, .7);
+    font-size: 14px;
+    width: 150px;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    display: none;
+}
+
 form .username input:focus,
 form .password input:focus {
   box-shadow: inset -2px -2px 5px #cacaca,
