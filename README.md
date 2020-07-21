@@ -35,15 +35,15 @@ However, it may change in the comming months.
 
 According to the list above :
 
- 1\ Adding a customer page (update 2.0.0)
-    Customer page when they are connected (update 2.1.0)
-    Follow their appointment (update 2.2.0)
-    Take rendez-vous (2.2.0)
-    Optional : Wallet to pay with
+ - Adding a customer page (update 2.0.0)
+    - Customer page when they are connected (update 2.1.0)
+    - Follow their appointment (update 2.2.0)
+    - Take rendez-vous (2.2.0)
+    - Optional : Wallet to pay with
 
- 2\ Adding a register page (update 3.0.0)
+ - Adding a register page (update 3.0.0)
 
- 3\ Adding additional connexions (uptdate 4.0.0)
-    Facebook (update 4.1.0)
-    Google (update 4.2.0)
+ - Adding additional connexions (uptdate 4.0.0)
+    - Facebook (update 4.1.0)
+    - Google (update 4.2.0)
     
