@@ -37,20 +37,24 @@
             </div>
 
             <div class="username">
-              <input type="text" placeholder="" required>
+              <input id="username" type="text" placeholder="" required>
               <span class="fas fa-user"></span>
               <label>Pseudo ou email</label>
             </div>
 
             <div class="password">
-              <input class="pswr" type="password" placeholder="" required>
+              <input id="password" class="pswr" type="password" placeholder="" required>
               <span class="fas fa-lock"></span>
               <span id="show" class="fas fa-eye-slash"></span>
               <label>Password</label>
             </div>
+              
+              <div class="alert">
+                <p>Vos identifiants ne sont pas correct</p>
+              </div>
 
             <div class="btn-send">
-              <input type="button" name="connect" value="Connexion">
+              <input id="send" type="button" name="connect" value="Connexion">
             </div>
 
           </form>
